@@ -33,7 +33,7 @@ while running:
 
     if player.distance_to(enemy_square) < 40:
         running = False
-
+#wefghj
     screen.fill((0,0,0))
     pygame.draw.circle(screen, (0,200,0), player, 20)
     pygame.draw.circle(screen, (255,255,0), enemy, 20)
